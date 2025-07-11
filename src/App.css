@@ -1,6 +1,7 @@
 .semaforo-contenedor {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   height: 100vh;
 }
@@ -13,6 +14,7 @@
   border-radius: 15px;
   padding: 10px;
   width: 100px;
+  margin-bottom: 10px;
 }
 
 .rojo {
@@ -36,6 +38,17 @@
   border-radius: 50%;
 }
 
+.morado {
+  background-color: purple;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
 .selected {
   border: 5px solid white;
+}
+
+.ocultar {
+  display: none !important;
 }
